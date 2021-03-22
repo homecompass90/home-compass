@@ -57,17 +57,18 @@ function Navbar() {
             </Link>
           </li>
 
-          {/*Sign Up Link */}
-          <li  className='nav-item'>
-            <Link to='/sign-up' id="sign-up" className='nav-links' onClick={closeMobileMenu}>
-              Sign Up
-            </Link>
-          </li>
 
           {/*Login Link */}
           <li  className='nav-item'>
             <Link to='/login' id="login" className='nav-links' onClick={closeMobileMenu}>
               Login
+            </Link>
+          </li>
+
+           {/*Sign Up Link */}
+           <li  className='nav-item'>
+            <Link to='/sign-up' id="sign-up" className='nav-links' onClick={closeMobileMenu}>
+              Sign Up
             </Link>
           </li>
 

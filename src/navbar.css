@@ -7,6 +7,7 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
+    z-index: 9999;
   }
   
   .navbar-logo {
@@ -15,7 +16,9 @@
   }
 
   #sign-up{
-    color: #3884FFFC;
+    background-color: #3884FFFC;
+    color: #ffffff;
+    border-radius: 30px;
 }
 
 #login{
@@ -79,6 +82,10 @@
         margin-top: -80px;
         width: 130px;
       }
+      #sign-up{
+        color: #3884FFFC;
+        background: #ffff;
+      }  
   
     .nav-menu {
       display: flex;

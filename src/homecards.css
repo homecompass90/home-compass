@@ -1,0 +1,39 @@
+.home__cards{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 350px;
+    min-width: 90%;
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    background-color: white;
+    z-index: 1;
+    transition: transform 450ms;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.home__cards:hover{
+    box-shadow: 9px 9px 9px 9px rgb(223, 217, 217);
+    transform: scale(1.10);
+    opacity: 1;
+}
+
+.card__image{
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card__title{
+    color: #3884FFFC;      
+}
+
+.card__description{
+    margin-top: 15px;
+}

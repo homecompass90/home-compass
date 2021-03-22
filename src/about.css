@@ -1,0 +1,48 @@
+.AboutImage {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    z-index: -1;
+}
+
+.AboutImage2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    z-index: -1;
+    margin-top: 50px;
+}
+.about__us{
+    text-align: center;
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.line{
+text-align: center;
+width: 205px;
+height: 0px;
+margin: auto;
+border: 4px solid #3884FFFC;
+opacity: 1;
+margin-top: 30px;
+margin-bottom: -50px;
+}
+
+.about__para_div{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    
+}
+
+.para{
+    margin: auto;
+    font-size: large;
+    
+}
